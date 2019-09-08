@@ -1,5 +1,5 @@
 server:
-  port: 9002
+  port: 9006
 spring:
   application:
     name: hrm-course
@@ -9,5 +9,5 @@ spring:
       username: root
       password: 123456
 mybatis-plus:
-  mapper-locations: classpath:cn/itsource/hrm/mapper/*Mapper.xml
-  type-aliases-package: cn.itsource.hrm.domain,cn.itsource.hrm.query
+  mapper-locations: classpath:com/lmk/hrm/mapper/*Mapper.xml
+  type-aliases-package: com.lmk.hrm.domain,com.lmk.hrm.query
